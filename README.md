@@ -69,7 +69,7 @@ Desenvolver **UI (User Interface)** baseado no escopo que está na pasta [layout
     - Listagem de veículos
     - Detalhe do veículo
     - Busca
-    - Formulário de novo/edição de veículos (não obrigatório)
+    - Formulário de novo/edição de veículos (**não obrigatório**)
 
 ## Dúvida
 
