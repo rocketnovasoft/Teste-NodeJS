@@ -1,6 +1,6 @@
 # Teste Técnico - Desenvolvedor(a) Full Stack
 
-Quando finalizar o teste, publique tudo no seu [Github](https://github.com) de modo público e envie por email com o título `[Teste Full Stack Node.js] Finalizado` para vagas@rocketnova.com.br
+Quando finalizar o teste, publique tudo no seu [Github](https://github.com) de modo público e envie por email com o título `[Teste Full Stack Node.js] Finalizado` para rocketnovasoft@gmail.com
 
 ## Backend
 
