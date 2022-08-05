@@ -1,11 +1,11 @@
-# Teste Técnico - Desenvolvedor(a) Full Stack Node.js
+# Teste Técnico - Desenvolvedor(a) Full Stack
 
 Quando finalizar o teste, publique tudo no seu [Github](https://github.com) de modo público e envie por email com o título `[Teste Full Stack Node.js] Finalizado` para vagas@rocketnova.com.br
 
 ## Backend
 
-Desenvolver uma **API JSON RESTful** em **Node.js**, utilizando **Express**, com os métodos (`GET`, `POST`, `PUT`, `DELETE`).
-Salvar dados em um banco de dados MySQL, utilizando **Knex**.
+Desenvolver uma **API JSON RESTful** em **Node.js**, utilizando **Express** ou algum framework (utilizamos **TypeORM**, **AdonisJS** e **Prisma** em nossos projetos, se fizer em um deles, seria massa), com os métodos (`GET`, `POST`, `PUT`, `DELETE`).
+Salvar dados em um banco de dados MySQL ou Postgres.
 
 ### Especificação
 
@@ -15,13 +15,11 @@ Monte uma base de veículo com a seguinte estrutura:
 veiculo:   string
 marca:     string
 ano:       integer
-descricao: text
+descricao: string
 vendido:   bool
 created:   datetime
 updated:   datetime
 ```
-
-Utilize **MySQL** através do **Knex** para armazenar os dados que a **API** irá consumir.
 
 ### API Endpoint
 
@@ -62,23 +60,17 @@ Apaga o veículo
 
 ## Frontend
 
-Desenvolver **UI (User Interface)** baseado no escopo que está na pasta [layout](https://github.com/rocketnova-dev/Teste-NodeJS/tree/master/layout), utilizando HTML, CSS e Javascript (Pode usar jQuery).
+Desenvolver **UI (User Interface)** baseado no escopo que está na pasta [layout](https://github.com/rocketnova-dev/Teste-NodeJS/tree/master/layout), utilizando React (se usar Material-UI vai fazer nossos olhos brilharem).
 
 ### Especificação
 
 - Consumir **API** criada acima
-- Criar uma tela que tenha:
+- Criar UI que tenha:
     - Listagem de veículos
     - Detalhe do veículo
     - Busca
-    - Formulário de novo/edição de veículos
-
-### Dica
-
-Você poderá utilizar bootstrap para auxiliar no desenvolvimento da interface, encontrado através do link:
-
-- http://getbootstrap.com/css/
+    - Formulário de novo/edição de veículos (não obrigatório)
 
 ## Dúvida
 
-Se tiver qualquer dúvida sobre esse teste, envie um email com o título `[Teste Full Stack Node.js] O assunto que vc deseja` para vagas@rocketnova.com.br
+Se tiver qualquer dúvida sobre esse teste, envie um email com o título `[Teste Full Stack Node.js] O assunto que vc deseja` para rocketnovasoft@gmail.com
